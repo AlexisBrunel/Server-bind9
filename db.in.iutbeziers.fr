@@ -1,0 +1,14 @@
+$TTL 1h ;
+@ IN SOA c-214-64.in.iutbeziers.fr. admin.in.iutbeziers.fr. (
+                        202209091 ;
+                        3600 ;
+                        3600 ;
+                        3600000 ;
+                        86400 ) ;
+         IN NS c-214-64.in.iutbeziers.fr.
+         IN MX 0 c-214-64.in.iutbeziers.fr.
+
+c-214-64.in.iutbeziers.fr. IN A  10.214.5.64
+$ORIGIN in.iutbeziers.fr
+smtp  CNAME c-214-64
+
